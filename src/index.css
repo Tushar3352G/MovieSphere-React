@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --primarycolor:#98AE6B;
+    
+}
+
+*::selection{
+    background-color:var(--primarycolor);
+}
+
+.swiper-button-prev, .swiper-button-next{
+    @apply bg-[var(--primarycolor)] w-5 h-5 p-5 rounded-full;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+    @apply text-base font-extrabold text-white;
+}
+
+html{
+    @apply scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-[#98AE6B] scrollbar-track-zinc-900;
+}
