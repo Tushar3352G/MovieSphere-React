@@ -54,3 +54,7 @@ html{
     font-weight: 700;
     font-style: normal;
 }
+
+.infinite-scroll-component{
+    @apply scrollbar-none;
+}
