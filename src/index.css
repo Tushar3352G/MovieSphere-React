@@ -24,7 +24,7 @@ html{
 }
 
 @font-face {
-    font-family:Visby_CF;
+    font-family:VisbyCf;
     src: local('Visby CF Regular'), 
          url('../src/assets/Fonts/VisbyRegular.woff') format('woff');
     font-weight: 400;
@@ -32,7 +32,7 @@ html{
 }
 
 @font-face {
-    font-family:Visby_CF;
+    font-family:VisbyCf;
     src: local('Visby CF Medium'), 
          url('../src/assets/Fonts/VisbyMedium.woff') format('woff');
     font-weight: 500;
@@ -40,7 +40,7 @@ html{
 }
 
 @font-face {
-    font-family:Visby_CF;
+    font-family:VisbyCf;
     src: local('Visby CF Semibold'), 
          url('../src/assets/Fonts/VisbySemibold.woff') format('woff');
     font-weight: 600;
@@ -48,7 +48,7 @@ html{
 }
 
 @font-face {
-    font-family:Visby_CF;
+    font-family:VisbyCf;
     src: local('Visby CF Bold'), 
          url('../src/assets/Fonts/VisbyBold.woff') format('woff');
     font-weight: 700;
