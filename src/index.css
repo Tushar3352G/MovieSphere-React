@@ -24,6 +24,33 @@ html{
 }
 
 @font-face {
-    font-family:Visby_CF;
-    src: url(../src/assets/Fonts/VisbyRegular.woff);
+    font-family: 'Visby_CF';
+    src: local('Visby CF Regular'), 
+         url('../src/assets/Fonts/VisbyRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visby_CF';
+    src: local('Visby CF Medium'), 
+         url('../src/assets/Fonts/VisbyMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visby_CF';
+    src: local('Visby CF Semibold'), 
+         url('../src/assets/Fonts/VisbySemibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visby_CF';
+    src: local('Visby CF Bold'), 
+         url('../src/assets/Fonts/VisbyBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
 }
