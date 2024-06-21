@@ -57,4 +57,5 @@ html{
 
 .infinite-scroll-component{
     @apply scrollbar-none;
+    overflow:unset !important;
 }
