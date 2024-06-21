@@ -22,3 +22,8 @@
 html{
     @apply scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-[#98AE6B] scrollbar-track-zinc-900;
 }
+
+@font-face {
+    font-family:Visby_CF;
+    src: url(../src/assets/Fonts/VisbyRegular.woff);
+}

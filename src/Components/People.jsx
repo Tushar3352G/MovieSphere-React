@@ -24,7 +24,7 @@ const People = () => {
       } else {
         setHasmore(false);
       }
-      console.log(data);
+      // console.log(data);
     } catch (error) {
       console.error(error);
     }

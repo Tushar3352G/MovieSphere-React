@@ -24,7 +24,7 @@ const Search = ({width = 'w-1/2', position ='relative' }) => {
     getSearch();
   }, [search]);
 
-  console.log(suggestion)
+
 
   return (
 

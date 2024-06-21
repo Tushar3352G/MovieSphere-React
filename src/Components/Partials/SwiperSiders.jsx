@@ -23,11 +23,11 @@ const SwiperSiders = ({ CardData, Padding, height, show, title, type}) => {
         disableOnInteraction: false,
       }}
       modules={[Navigation, Autoplay]}
-      className={`overflow-x-visible scrollbar-none ${Padding} bg-transparent`}
+      className={`overflow-x-clip scrollbar-none ${Padding} bg-transparent`}
     >
-      {CardData.map((item) => (
+      {CardData.map((item,index) => (
         <SwiperSlide
-          key={item.id}
+          key={item.id * index}
           className={`bg-zinc-300 relative ${height} text-white`}
         >
           <Link
